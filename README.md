@@ -17,9 +17,9 @@
 
 - Finally, follow the directions given in `challenge.md`!
 
-## Submitting Your Quiz
+## Submitting Your Solution
 
-Once you finish answering all the questions (or run out of time), use the terminal to navigate to `cli_08-assessment` and enter the following commands one by one:
+Once you finish (or run out of time), use the terminal to navigate to `cli_08-assessment` and enter the following commands one by one:
 
  `git add quiz`
 
