@@ -15,7 +15,7 @@
 
 ![Git Clone Terminal Screenshot](images/command_line.png)
 
-- Finally, follow the directions given in `quiz.md`!
+- Finally, follow the directions given in `challenge.md`!
 
 ## Submitting Your Quiz
 
