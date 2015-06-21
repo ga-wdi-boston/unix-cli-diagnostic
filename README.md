@@ -1,6 +1,6 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-## Command Line Quiz
+## Setup Instructions
 - Fork this repository to your GitHub account.
 
 ![GitHub Fork Screenshot]()
