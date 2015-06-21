@@ -6,7 +6,7 @@ Carry out all of the following tasks using _only the command line_! As is usuall
 
 <hr>
 
-## CLI Commands
+## Navigating the Filesystem
 
 Complete each of following steps, **in order** :
 
