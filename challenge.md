@@ -18,7 +18,7 @@ Complete each of following steps, **in order** :
 
  "The rain in Spain falls mainly in the plain."
 
-Once you've done this, save the file and quit.
+ Once you've done this, save the file and quit.
 
 4. Make a directory inside `quiz` called `temp`. Inside it, create a new blank file called `temp.md`.
 
