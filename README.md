@@ -21,7 +21,7 @@
 
 Once you finish (or run out of time), use the terminal to navigate to `cli_08-assessment` and enter the following commands one by one:
 
- `git add quiz`
+ `git add challenge.md`
 
  `git commit -m "Completed quiz."`
 
