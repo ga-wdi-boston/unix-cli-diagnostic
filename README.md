@@ -25,7 +25,7 @@ Once you finish (or run out of time), use the terminal to navigate to `cli_08-as
 
  `git commit -m "Completed quiz."`
 
- `git push origin master.`
+ `git push origin master`
 
 Finally, go back to the GitHub page for your fork (the place where you copied the URL). Click the green button whose mouseover text is "Compare, review, and create a pull request."; then click the green button that says "Create pull request."
 
