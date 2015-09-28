@@ -1,3 +1,5 @@
+
+
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 ## Challenge
@@ -29,22 +31,23 @@ Use `ls` to show the contents of `quiz` - was `temp` deleted?
 
 Open up this file in your text editor, and write your answers below (where indicated).
 
+
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
- 
+ <!-- Answer Starts Here --> Absolute, because it lists all parent directories leading back to the root directory.
+
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
- 
+ <!-- Answer Starts Here -->Absolute because you are pointing the URL of the font file.
+
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- 
+ Relative, as long as the image lives inside the same projects.
  <!-- Answer Ends Here -->
 
 <hr>
