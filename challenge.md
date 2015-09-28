@@ -44,7 +44,7 @@ Open up this file in your text editor, and write your answers below (where indic
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- relative path.
+ relative path because we are already in that directory.
  <!-- Answer Ends Here -->
 
 <hr>
