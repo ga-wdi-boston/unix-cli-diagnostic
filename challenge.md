@@ -16,9 +16,9 @@ Complete each of following steps, **in order** :
 
 3. Open `rhyme.txt` using Sublime (via the terminal) and add the following text:
 
- "The rain in Spain falls mainly in the plain."
+"The rain in Spain falls mainly in the plain."
 
- Once you've done this, save the file and quit.
+Once you've done this, save the file and quit.
 
 4. Make a directory inside `quiz` called `temp`. Inside it, create a new blank file called `temp.md`.
 
@@ -31,21 +31,21 @@ Open up this file in your text editor, and write your answers below (where indic
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+<!-- Answer Starts Here -->
+It is an absolute path, because it starts at the root, into Users etc. not just ~/Place.
+<!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+<!-- Answer Starts Here -->
+Absolute, because through the entire internet we need to know an exact path, a relative path wouldn't be specific enough
+<!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+<!-- Answer Starts Here -->
+Relative, because you know exactly where it in based on the project's Root directory.
+<!-- Answer Ends Here -->
 
 <hr>
 
