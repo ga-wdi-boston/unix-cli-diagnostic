@@ -32,19 +32,22 @@ Open up this file in your text editor, and write your answers below (where indic
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
- 
+ this is an absolute path, because we are shown a clear path from the root folder directory through the subsequent subdirectories all the way down to the Desktop directory
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
- 
+ in this case, we'd use an absolute path, because the font is hosted in a very specific location, and therefore we cannot refer to this font with relative paths
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- 
+ We would use a relative path in this scenario, because we are hosting the image within the project directory structure, so we know the image's location.
+
+ **This knowledge is based on learning about absolute paths in 1998. For the life of me, I can't recall if we learned about absolute vs. relative paths in depth during our WDI fundamentals work, but I suspect we did. Oh yes! Just reviewed fundamentals again. This info is located in fundamentals section 1.1. That's right... :)
+ Pardon my nerdery moment.
  <!-- Answer Ends Here -->
 
 <hr>
