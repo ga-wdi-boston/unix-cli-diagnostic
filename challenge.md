@@ -29,22 +29,22 @@ Use `ls` to show the contents of `quiz` - was `temp` deleted?
 
 Open up this file in your text editor, and write your answers below (where indicated).
 
-1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
+1. Is ~/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
- 
+ absolute, the home directory is in the path
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
- 
+ absolute, you need to pecify exactly where on the internet the font lies
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- 
+ relative, the file has to be reffered to relative to the project instead of its absolute position on the computer. if the project were moved all together, even though the absolute path has changed, relative to the project, the image is in the same place.
  <!-- Answer Ends Here -->
 
 <hr>
