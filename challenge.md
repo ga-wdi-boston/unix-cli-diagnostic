@@ -10,7 +10,7 @@ Carry out all of the following tasks using _only the command line_! As is usuall
 
 Complete each of following steps, **in order** :
 
-1. Create a new directory called `quiz` inside the root directory of this repository (`cli-08-assessment`).
+1. Create a new directory called `quiz` inside the root directory of this repository (`unix-cli-intro-assessment`).
 
 2. Create a new file inside `quiz` called `rhyme.txt`.
 
@@ -31,21 +31,17 @@ Open up this file in your text editor, and write your answers below (where indic
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+ Absolute path
+
+
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+ Absolute path so that it directs specifically to that font.
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
- 
- <!-- Answer Ends Here -->
+ Absolue Path so that it doesnt bring up a random image.
 
 <hr>
 
