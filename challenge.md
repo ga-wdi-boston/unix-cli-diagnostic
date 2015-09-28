@@ -32,19 +32,19 @@ Open up this file in your text editor, and write your answers below (where indic
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
- 
+ This is an absolute path because it begins with a "/" that all absolute paths do, and it is coming from our root directory.
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
- 
+ We would use an absolute path because we will be getting it directly from the internet, therefore getting it directly from its root.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- 
+ We can refer to it using a relative path because we can refer to the image directly without needing to go into the root directory.
  <!-- Answer Ends Here -->
 
 <hr>
