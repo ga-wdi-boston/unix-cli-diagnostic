@@ -35,3 +35,8 @@ Finally, go back to the GitHub page for your fork (the place where you copied th
 
 That's it - you're done!
 
+[License](LICENSE)
+------------------
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
