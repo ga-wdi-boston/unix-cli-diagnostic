@@ -14,7 +14,7 @@ Complete each of following steps, **in order** :
 
 2. Create a new file inside `quiz` called `rhyme.txt`.
 
-3. Open `rhyme.txt` using Sublime (via the terminal) and add the following text:
+3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
 
  "The rain in Spain falls mainly in the plain."
 
