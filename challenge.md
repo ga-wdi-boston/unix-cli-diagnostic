@@ -14,9 +14,6 @@ Complete each of following steps, **in order** :
 
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
 
- "The rain in Spain falls mainly in the plain."
-
- Once you've done this, save the file and quit.
 
 4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
 
@@ -29,19 +26,17 @@ Open up this file in Atom, and write your answers below (where indicated).
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Absolute
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
+ absolute path because we have to like to it outside of our directory
 
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
+ reletive because the image is reletive to the loction we need it in the project
 
  <!-- Answer Ends Here -->
 
