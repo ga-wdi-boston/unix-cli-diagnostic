@@ -42,7 +42,7 @@ Open up this file in Atom, and write your answers below (where indicated).
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-  Relative path because the project is living within your local computer.
+  Relative path because the project is living within your local computer!
  <!-- Answer Ends Here -->
 
 <hr>
