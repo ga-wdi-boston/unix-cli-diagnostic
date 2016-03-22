@@ -1,0 +1,7 @@
+"The rain in Spain falls mainly in the plain."
+
+ Once you've done this, save the file and quit.
+
+ 1. It's a absolute path because it begins with parent directory Users
+ 2. relative path it suggests that it's near a local location
+ 3. absolute need to get a direct path to the file
