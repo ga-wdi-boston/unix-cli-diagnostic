@@ -12,8 +12,7 @@
 
 ![Remotes](https://cloud.githubusercontent.com/assets/10408784/13907024/1ea37866-eebb-11e5-9a91-a1898e351c13.png)
 
--   Open your terminal and navigate to a place inside your filesystem where
-you'd like your local copy to live (Note: NOT inside another repo).
+-   Open your terminal and navigate to your wdi/diagnostics directory.
 
 -   Type `git clone ` + the URL that you just copied from GitHub.com, and hit
 enter. This will copy the repository from GitHub.com to your current location.

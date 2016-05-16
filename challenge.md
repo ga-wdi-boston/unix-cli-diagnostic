@@ -1,14 +1,19 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
+# Unix/CLI Diagnostic
+
 ## Challenge
 
-Carry out all of the following tasks using _only the command line_! As is usually the case, you're welcome to use any resource you can find (except another student, of course) to reach your answer.
+Carry out all of the following tasks using _only the command line_! As is
+usually the case, you're welcome to use any resource you can find (except
+another student, of course) to reach your answer.
 
 ## Navigating the Filesystem
 
 Complete each of following steps, **in order** :
 
-1. Create a new directory called `cli-diagnostic` inside the root directory of this repository (`unix-cli-diagnostic`).
+1. Create a new directory called `cli-diagnostic` inside the root directory of
+this repository (`unix-cli-diagnostic`).
 
 2. Create a new file inside `cli-diagnostic` called `rhyme.txt`.
 
