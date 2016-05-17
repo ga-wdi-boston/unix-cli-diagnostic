@@ -17,13 +17,15 @@
 -   Type `git clone ` + the URL that you just copied from GitHub.com, and hit
 enter. This will copy the repository from GitHub.com to your current location.
 
+-   cd into the `unix-cli-diagnostic` directory
+
 ![Git Clone Terminal Screenshot](images/command_line.png)
 
 -Type `git branch response` to create a new branch.
 
 -Type `git checkout response` to switch to your response branch.
 
--Finally, follow the directions given in `challenge.md`.
+-Finally, follow the directions given in `diagnostic.md`.
 
 ## Submitting Your Solution
 
