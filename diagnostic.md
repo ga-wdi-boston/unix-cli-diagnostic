@@ -29,25 +29,25 @@ this repository (`unix-cli-diagnostic`).
 
 6.) Navigate back up to `unix-cli-diagnostic` directory.
 
+Yes, it was deleted using rm -rf
+
 ## Absolute and Relative Paths
 
 Using Atom, open up `diagnostic.md` and write your answers below (where indicated).
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ <!--It is an absolute path because it is telling us we are looking for our root directory followed by home directory then our desktop->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
+ <!-- We would use a relztive path because it is not in our computer but on the internet.-->
 
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
+ <!-- Relative Path because it is in a project file and not in our home or root directories. -->
 
  <!-- Answer Ends Here -->
 
