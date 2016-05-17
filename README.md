@@ -1,19 +1,20 @@
 ![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)
 
+# Unix/CLI Diagnostic
+
 ## Setup Instructions
 
-- Fork this repository to your GitHub account.
+-   Fork this repository to your GitHub account.
 
 ![GitHub Fork Screenshot](images/fork.png)
 
-- Copy the `ssh` link shown on the top of the page.
+-   Copy the `ssh` link shown on the top of the page.
 
 ![Remotes](https://cloud.githubusercontent.com/assets/10408784/13907024/1ea37866-eebb-11e5-9a91-a1898e351c13.png)
 
-- Open your terminal and navigate to a place inside your filesystem where you'd
-like your local copy to live (Note: NOT inside another repo).
+-   Open your terminal and navigate to your wdi/diagnostics directory.
 
-- Type `git clone ` + the URL that you just copied from GitHub.com, and hit
+-   Type `git clone ` + the URL that you just copied from GitHub.com, and hit
 enter. This will copy the repository from GitHub.com to your current location.
 
 ![Git Clone Terminal Screenshot](images/command_line.png)
