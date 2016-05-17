@@ -25,12 +25,13 @@ this repository (`unix-cli-diagnostic`).
 
 4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
 
-5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it).
-Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+
+6.) Navigate back up to `unix-cli-diagnostic` directory.
 
 ## Absolute and Relative Paths
 
-Open up this file in Atom, and write your answers below (where indicated).
+Using Atom, open up `diagnostic.md` and write your answers below (where indicated).
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
