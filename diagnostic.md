@@ -30,6 +30,11 @@ Inside it, create a new blank file called `temp.md`.
 `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic`
 - was `temp` deleted?
 
+<!-- Answer Starts Here -->
+Yes. `temp` was deleted.
+
+<!-- Answer Ends Here -->
+
 ## Absolute and Relative Paths
 
 Open up this file in Atom, and write your answers below (where indicated).
