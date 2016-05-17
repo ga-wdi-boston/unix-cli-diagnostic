@@ -23,10 +23,12 @@ this repository (`unix-cli-diagnostic`).
 
  Once you've done this, save the file and quit.
 
-4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
+4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a
+new blank file called `temp.md`.
 
-5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it).
-Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with
+`temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was
+`temp` deleted?
 
 ## Absolute and Relative Paths
 
@@ -35,19 +37,24 @@ Open up this file in Atom, and write your answers below (where indicated).
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+it's an absolute path because it begins from the home directory. if it was
+navigated to with `Desktop` it would be a relative path
  <!-- Answer Ends Here -->
 
-2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
+2. Suppose that we're working on a project, and we want to use a font that's
+being hosted somewhere on the internet. Would we use an absolute or relative
+path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute, because a relative path is in relation to where you currently are, and
+wouldn't be appropriate for an external internet address.
  <!-- Answer Ends Here -->
 
-3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
+3. Now suppose that we have an image file living inside our project. Would we
+refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+relative path, because it would be stored locally in your project.
  <!-- Answer Ends Here -->
 
 <hr>
