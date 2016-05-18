@@ -19,36 +19,43 @@ this repository (`unix-cli-diagnostic`).
 
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
 
- "The rain in Spain falls mainly in the plain."
+"The rain in Spain falls mainly in the plain."
 
- Once you've done this, save the file and quit.
+Once you've done this, save the file and quit.
 
-4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
+4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a
+new blank file called `temp.md`.
 
-5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it).
-Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with
+`temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was
+`temp` deleted?
+
+6. Navigate back up to unix-cli-diagnostic directory.
 
 ## Absolute and Relative Paths
 
 Open up this file in Atom, and write your answers below (where indicated).
 
-1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
+1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you
+know?
 
- <!-- Answer Starts Here -->
+Absolute. It starts with / (meaning the root directory) and continues from
+there.
 
- <!-- Answer Ends Here -->
+2. Suppose that we're working on a project, and we want to use a font that's
+being hosted somewhere on the internet. Would we use an absolute or relative
+path to refer to it? Why?
 
-2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
+Absolute. If something is hosted on the internet, the only way to refer to it is
+with an absolute path.
 
- <!-- Answer Starts Here -->
+3. Now suppose that we have an image file living inside our project. Would we
+refer to it with an absolute or relative path? Why?
 
- <!-- Answer Ends Here -->
+Relative. These files should be included with our projects and be referenced in
+an 'images/' directory relative to our project/app directory.
 
-3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
 
 <hr>
 
