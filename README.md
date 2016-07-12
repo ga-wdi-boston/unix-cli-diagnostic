@@ -6,7 +6,7 @@
 
 -   Fork this repository to your GitHub account.
 
-![GitHub Fork Screenshot](images/fork.png)
+![fork](https://cloud.githubusercontent.com/assets/10408784/16751964/6d58d6e2-47ab-11e6-8a30-8f37a80c337a.png)
 
 -   Copy the `ssh` link shown on the top of the page.
 
@@ -19,7 +19,7 @@ enter. This will copy the repository from GitHub.com to your current location.
 
 -   cd into the `unix-cli-diagnostic` directory
 
-![Git Clone Terminal Screenshot](images/command_line.png)
+![command_line](https://cloud.githubusercontent.com/assets/10408784/16751980/9d7d8322-47ab-11e6-8b8b-62eebd2001e9.png)
 
 -Type `git branch response` to create a new branch.
 
