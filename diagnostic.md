@@ -43,7 +43,9 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
- Absolute path, since the font is not being hosted on our computer.
+ Absolute path, since the font is not being hosted on our computer, and therefore
+ it would be more difficult / impossible to locate it reliably using an relative
+ path.
 
  <!-- Answer Ends Here -->
 
