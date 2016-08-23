@@ -35,7 +35,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- This is a relative path because it has reference to the current directory.
+ This is a relative path because it has reference to the current directory on our computer.
 
 
 
