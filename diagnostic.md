@@ -47,7 +47,7 @@ we would use an absolute path because its being referenced from the internet rat
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-relative. it would be the quickest way to reach the file. 
+relative. it would be the quickest way to reach the file.
  <!-- Answer Ends Here -->
 
 <hr>
