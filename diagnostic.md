@@ -19,7 +19,6 @@ this repository (`unix-cli-diagnostic`).
 
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
 
- "The rain in Spain falls mainly in the plain."
 
  Once you've done this, save the file and quit.
 
@@ -36,19 +35,19 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+absolute. it starts from the user rather than a directory.
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+we would use an absolute path because its being referenced from the internet rather than a sub directory on our computer.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+relative. it would be the quickest way to reach the file.
  <!-- Answer Ends Here -->
 
 <hr>
