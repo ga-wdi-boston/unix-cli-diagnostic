@@ -36,21 +36,21 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+relative path
  <!-- Answer Ends Here -->
-
+you can see the path of parent directory
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+absolute
  <!-- Answer Ends Here -->
-
+we are using a direct link
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+relative path
  <!-- Answer Ends Here -->
-
+it needs to know exactly where the image file is within the directory
 <hr>
 
 You're done! Refer back to README.md.
