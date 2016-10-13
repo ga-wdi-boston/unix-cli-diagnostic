@@ -2,6 +2,10 @@
 
 # Unix/CLI Diagnostic
 
+## Prerequisites
+
+-   [Unix CLI](https://github.com/ga-wdi-boston/unix-cli)
+
 ## Setup Instructions
 
 -   Fork this repository to your GitHub account.
@@ -42,5 +46,6 @@ That's it - you're done!
 
 ## [License](LICENSE)
 
-Source code distributed under the MIT license. Text and other assets copyright
-General Assembly, Inc., all rights reserved.
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
