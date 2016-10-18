@@ -36,19 +36,27 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+/Users/blah_blah/Desktop is an absolute path because it starts with a / and is
+coming from the root directory.
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+We would use an absolute path to the font such as
+https://fonts.googleapis.com/css?family=Abhaya+Libre . We use an absolute path
+because we want to be definite about where the font resides, as it is not
+residing in any of our personal directories or web addresses.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We would refer to an image file inside our project with a relative path, such
+as './resources/images/my_smily.jpg'. We use a relative path because if our
+project moves locations on our harddrive or web server it will always be able
+to find the image. If we used an absolute path and moved our project folder,
+all our image paths would have to be re-written.
  <!-- Answer Ends Here -->
 
 <hr>
