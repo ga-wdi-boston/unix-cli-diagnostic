@@ -37,17 +37,23 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
  <!-- Answer Starts Here -->
 
+ It's an absolute path because it points to the same location in a file system regardless of the current working directory, and includes the root directory.
+
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
 
+ You would use an absolute path, as a font that is hosted on the internet would be called on using a URL, which is a type of absolute path. Using absolute paths or absolute URLs are neccesary when you want to point to Web elements that are on a domain other than your own and exist in a constat location.
+
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
+
+ You could use a relative path since the image is localized within a project. Since relative paths specify the location of an image or directory relative to another directory, it keeps the code concise while allowing you to move within your project. 
 
  <!-- Answer Ends Here -->
 
