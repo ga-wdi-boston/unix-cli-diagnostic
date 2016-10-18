@@ -15,9 +15,17 @@ Complete each of following steps, **in order** :
 1. Create a new directory called `cli-diagnostic` inside the root directory of
 this repository (`unix-cli-diagnostic`).
 
+mkdir cli-diagnostic
+
 2. Create a new file inside `cli-diagnostic` called `rhyme.txt`.
 
+cd cli-diagnostic ..
+touch rhyme.txt
+
+
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
+
+atom rhyme.txt
 
  "The rain in Spain falls mainly in the plain."
 
@@ -25,8 +33,16 @@ this repository (`unix-cli-diagnostic`).
 
 4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
 
+mkdir temp
+cd temp ..
+touch temp.md
+
 5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
+cd ..
+rm -r temp
+
+ yes it was
 6.) Navigate back up to `unix-cli-diagnostic` directory.
 
 ## Absolute and Relative Paths
