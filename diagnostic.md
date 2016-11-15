@@ -15,6 +15,7 @@ Complete each of following steps, **in order** :
 1. Create a new directory called `cli-diagnostic` inside the root directory of
 this repository (`unix-cli-diagnostic`).
 
+
 2. Create a new file inside `cli-diagnostic` called `rhyme.txt`.
 
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
