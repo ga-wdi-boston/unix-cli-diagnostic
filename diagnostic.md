@@ -36,19 +36,19 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+ls returned only rhyme.txt, to be certain ls -a also returned only rhyme.txt
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute. Since the font is being hosted on the internet your local PC cannot operate on the context of local file structures. It would require the networking information to find the files online, which an absolute path provides.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+This depends on whether the img is found on your local drive or being hosted on the internet. if the source is local than a relative path would work other wise an absolute path would be required.
  <!-- Answer Ends Here -->
 
 <hr>
