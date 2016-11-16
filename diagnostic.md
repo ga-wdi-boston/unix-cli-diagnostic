@@ -1,4 +1,4 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+a ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 # Unix/CLI Diagnostic
 
@@ -36,19 +36,19 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+a absolute path has you have to take one step at a time through the file tree
  <!-- Answer Ends Here -->
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
+ <!-- Answer Starts Here -->relative path you know beginning and end point and do not have to know each step to be taken
 
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+relative as you are just pointing to its finaldestination
  <!-- Answer Ends Here -->
 
 <hr>
