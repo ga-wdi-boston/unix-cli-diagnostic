@@ -49,7 +49,7 @@ Green.
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+Relative path because it is locally sourced.
 
  <!-- Answer Ends Here -->
 
