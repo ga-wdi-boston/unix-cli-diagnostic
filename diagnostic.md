@@ -51,19 +51,19 @@ The files in cli-diagnostic are green and diagnostic.md is also green now.
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute because it starts from the root directory
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute, any working path to an external source will have to be an absolute path since the file is not stored on the same server
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We would refer to it with a relative path, since the files should be stored on the same server and it is usually easier to write relative paths.
  <!-- Answer Ends Here -->
 
 <hr>
