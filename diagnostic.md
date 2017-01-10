@@ -34,7 +34,7 @@ The file name is red
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
-git-diagnostic is green, although after I save this I'm sure it will become red again
+git-diagnostic is green, although after I save this I'm sure it will become red again. meh
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
