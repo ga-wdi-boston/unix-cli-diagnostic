@@ -51,19 +51,19 @@ Green for the new files, red for the modified diagnostic.md
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative, because it's a local address.
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute, because it is a non-local address.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute because otherwise no-one else will be able to access the image.
  <!-- Answer Ends Here -->
 
 <hr>
