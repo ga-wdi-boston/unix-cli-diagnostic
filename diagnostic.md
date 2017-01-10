@@ -37,7 +37,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
  <!-- Answer Starts Here -->
-
+  green
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -51,19 +51,20 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
+ It is an absolute path because it starts at Users, which is the root directory. This is the full location of where Desktop is found.
 
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+  I believe this is an absolute path, because I see nothing in this site that does not go back to the root of the site. The https: is the beginning of the path of a wbesite. 
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We can use a relative path in that case, because we are already inside the project and don't need to refer to the entire directory when giving the location of the image file.
  <!-- Answer Ends Here -->
 
 <hr>
