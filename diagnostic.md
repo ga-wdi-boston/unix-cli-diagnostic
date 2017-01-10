@@ -23,32 +23,47 @@ this repository (`unix-cli-diagnostic`).
 
  Once you've done this, save the file and quit.
 
-4. Make a directory inside `cli-dliagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
+4. Make a directory inside `cli-diagnostic` called `temp`. Inside it, create a new blank file called `temp.md`.
 
-5. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+Navigate back up to `unix-cli-diagnostic` directory.
+Using Atom, open up `diagnostic.md` and write your answers below (where indicated).
 
-6.) Navigate back up to `unix-cli-diagnostic` directory.
+5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
+
+ <!-- Answer Starts Here -->
+ Red
+ <!-- Answer Ends Here -->
+
+6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
+
+ <!-- Answer Starts Here -->
+ Green
+ <!-- Answer Ends Here -->
+
+7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
+
+8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
+
+9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
 ## Absolute and Relative Paths
-
-Using Atom, open up `diagnostic.md` and write your answers below (where indicated).
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+ Absolute path, the first / represents the root of the system.
  <!-- Answer Ends Here -->
 
-2. Suppose that we're working on a project, and we want to use a font that's being hosted somewhere on the internet. Would we use an absolute or relative path to refer to it? Why?
+2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+  Absolute path
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+ We can use relative paths which are a path from the directory or file we are currently in or absolute paths which are a path from our root directory.
  <!-- Answer Ends Here -->
 
 <hr>
