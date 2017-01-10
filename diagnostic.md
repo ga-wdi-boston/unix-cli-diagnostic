@@ -31,6 +31,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- Answer Starts Here -->
+
  Red
  <!-- Answer Ends Here -->
 
@@ -38,6 +39,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
  <!-- Answer Starts Here -->
  Green
+
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -53,6 +55,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
  <!-- Answer Starts Here -->
  Absolute path, the first / represents the root of the system.
  <!-- Answer Ends Here -->
+
 
 2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
