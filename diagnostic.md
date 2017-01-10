@@ -51,19 +51,19 @@ The files inside the new folder are green and diagnostic.md is green also.
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+This is a relative path because it is stored locally.  A user on another machine could not access this folder from their machine.
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- Answer Starts Here -->
-
+It is an absolute path because it is not stored locally on my machine.  The only way to access it is to provide an absolute path.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We would refer to it with a relative path because it is stored locally.  There is no need to provide the absolute path.
  <!-- Answer Ends Here -->
 
 <hr>
