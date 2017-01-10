@@ -30,15 +30,17 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-red->
+ <!--Answer starts here-->
+ red
 
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!--new file: cli-diagnostic/rhyme.txt and cli-diagnostic/temp/temp.md are both green.-->
+ <!--Answer starts here-->new file: cli-diagnostic/rhyme.txt and cli-diagnostic/temp/temp.md are both green.
+ modified: diagnostic.md is red.-->
 
- <!--modified: diagnostic.md is red.-->
+ <!--Answer ends here-->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
@@ -50,20 +52,20 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+ <!--Answer starts here-->It's an absolute path because it starts at the root/ gives the full path as opposed to a path relative to where I am.
 
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
- <!-- Answer Starts Here -->
+ <!-- Answer starts here -->>It's an absolute path because it specifies the protocol and shows the computer where to go regardless of what page I'm on right now (for example, if I'm on facebook.com and I use the link above, the computer will not assume that the link is a part of Facebook.)
 
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We would refer to it with a relative path, because it's in the same project and it's shorter/more efficient to use a relative path rather than start at the beginning and work our way back to the image file.
  <!-- Answer Ends Here -->
 
 <hr>
