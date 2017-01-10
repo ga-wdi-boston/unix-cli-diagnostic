@@ -31,13 +31,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- red -->
-
+  red
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
  <!-- green -->
-
+  green
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -45,6 +45,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
 <!-- yes -->
+yes
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
@@ -54,18 +55,19 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
  <!-- absolute because it points to that locaion regardless of your location-->
 
+  absolute because it points to that locaion regardless of your location
  <!-- Answer Ends Here -->
 
  2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
 
  <!-- absolute, All remote must be absolute-->
-
+  absolute, All remote must be absolute
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- relative because its in the same working directory and we should try to avoid using absolute path-->
-
+relative because its in the same working directory and we should try to avoid using absolute path
  <!-- Answer Ends Here -->
 
 <hr>
