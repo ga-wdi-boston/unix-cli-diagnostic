@@ -36,7 +36,7 @@ red
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!-- Answer Starts Here -->
+green
 
  <!-- Answer Ends Here -->
 
