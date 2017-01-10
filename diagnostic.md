@@ -30,15 +30,15 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
+ <!-red->
 
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!-- Answer Starts Here -->
+ <!--new file: cli-diagnostic/rhyme.txt and cli-diagnostic/temp/temp.md are both green.-->
 
- <!-- Answer Ends Here -->
+ <!--modified: diagnostic.md is red.-->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
