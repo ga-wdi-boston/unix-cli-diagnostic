@@ -30,7 +30,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
+red
 
  <!-- Answer Ends Here -->
 
