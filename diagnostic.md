@@ -44,6 +44,10 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
+<!-- Answer Starts Here -->
+
+<!-- Answer Ends Here -->
+
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
 ## Absolute and Relative Paths
@@ -54,7 +58,17 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
  <!-- Answer Ends Here -->
 
- 2. Suppose that we're working on a project, and we want to use a font that's being hosted on Google at `https://fonts.googleapis.com/css?family=Open+Sans`. Is that an absolute or relative path to refer to it? Why?
+ 2. Given:
+```sh
+~/project
+├── css
+├── data
+├── img
+├── js
+└── planning
+```
+
+If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
 
