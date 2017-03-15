@@ -71,13 +71,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative path, `planning` is referenced with respect to the current working directory, `project`.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
- We can use relative paths which are a path from the directory or file we are currently in or absolute paths which are a path from our root directory.
+ Relative, the image file lives inside our current working directory, `project`; as a result, an absolute path is not needed to access it.
  <!-- Answer Ends Here -->
 
 <hr>
