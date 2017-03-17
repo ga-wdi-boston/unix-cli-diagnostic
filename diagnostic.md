@@ -30,15 +30,31 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
 
- <!-- Answer Ends Here -->
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+~/wdi/d
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
- <!-- Answer Starts Here -->
+	new file:   rhyme.txt
 
- <!-- Answer Ends Here -->
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../diagnostic.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ryyme.txt
+	temp.md
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
@@ -54,8 +70,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
+relative path, it starts with users and not the root ~
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -70,15 +85,11 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+absolute because the path is the same no matter where we start from
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+relative because we would refer to it based on where we are currently
 
 <hr>
 
