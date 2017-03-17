@@ -30,15 +30,14 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
+The color of the file name is red.
 
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
+Green.
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ Green
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
@@ -54,7 +53,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+Relative path because it is locally sourced.
 
  <!-- Answer Ends Here -->
 
