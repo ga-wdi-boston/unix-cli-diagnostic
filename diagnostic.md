@@ -30,13 +30,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
+red
 
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!-- Answer Starts Here -->
+green
 
  <!-- Answer Ends Here -->
 
