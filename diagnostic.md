@@ -31,13 +31,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- Answer Starts Here -->
-
+The color of the file name is red
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
  <!-- Answer Starts Here -->
-
+The color is now green
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -55,7 +55,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative path because you are referring to the specific path (starting at home) to the folder location on a specific device.
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute path.  Regardless of the device or computer, it can always be found at this specific location
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+You would refer to it with a relative path
  <!-- Answer Ends Here -->
 
 <hr>
