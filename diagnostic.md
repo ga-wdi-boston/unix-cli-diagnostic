@@ -54,9 +54,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ This is a root path because it includes the root directory(user)
 
  2. Given:
 ```sh
@@ -70,15 +68,12 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
+It is an absolute path, because it is a link to a website and is its own path separate from my system.
 
- <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ Unlike the font mentioned in the question above, refering to an image we have living inside our project would be refered to with a relative path, because it is already inside of our project and is not coming from the root directory or another database.
 
 <hr>
 
