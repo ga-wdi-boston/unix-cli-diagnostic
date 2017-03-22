@@ -67,9 +67,7 @@ Yes.   Needed the rm -rf command - which is dangerous!
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+absolute because it starts with a /
 
  2. Given:
 ```sh
@@ -83,15 +81,12 @@ Yes.   Needed the rm -rf command - which is dangerous!
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+relative because planning is relative to where we are at (in project)
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+If we are still within project relative
+But if we have changed dir to project/planning we would need an absolute to get to /project/planning/*.img
 
 <hr>
 
