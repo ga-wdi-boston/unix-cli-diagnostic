@@ -45,7 +45,7 @@ Green
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
 <!-- Answer Starts Here -->
-
+YES!
 <!-- Answer Ends Here -->
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
@@ -55,7 +55,7 @@ Green
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute path. It stems from the root directory indicated by the first '/'
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Green
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative, because you are not using a precise (absolute) file path name to access it, but a path relative to the current project directory.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Either can be done, but the safer way to do it would be through an absolute path in case of any changes to folders shifted around etc.
  <!-- Answer Ends Here -->
 
 <hr>
