@@ -58,7 +58,7 @@ yes. I used rm -r temp
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+absolute path because it begins with a leading '/'.  It also starts at the home directory
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -74,13 +74,13 @@ yes. I used rm -r temp
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+relative path.  It is a relative path because we are navigating in relation to the project folder.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+It depends.  We would use a relative path if we have a local copy of the file on the desktop. I would use an absolute path if we got the image from the internet or some other location outside of our project directory.
  <!-- Answer Ends Here -->
 
 <hr>
