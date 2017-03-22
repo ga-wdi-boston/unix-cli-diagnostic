@@ -31,13 +31,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- Answer Starts Here -->
-
+Red
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
  <!-- Answer Starts Here -->
-
+green
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -45,7 +45,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
 <!-- Answer Starts Here -->
-
+yes
 <!-- Answer Ends Here -->
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
@@ -55,7 +55,8 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute b/c it starts with '/' which means it is relative to root drive NOT
+where ever you're currently located in the file strucutre
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +72,28 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+relative, b/c it is going to take us to the 'planing' folder inside the 'project'
+folder.  You might have multiple sub-folders called 'planing' and using 'cd planing'
+will take you to the 'planing' folder relative to your current parent directory.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+I would want to use a absolute path b/c you could eaisly end up with a folder structer
+like:
+```test
+~/home_page
+├── css
+├── img
+├── js
+~/about_us
+├── css
+├── img
+├── js
+```
+I would think that using a relative path would make me more likely to
+use the images from the wrong 'img' folder
  <!-- Answer Ends Here -->
 
 <hr>
