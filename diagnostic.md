@@ -30,23 +30,17 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ Red
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Green
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
-<!-- Answer Starts Here -->
-
-<!-- Answer Ends Here -->
+Yes
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
@@ -54,9 +48,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Absolute path. Path starts with a leading "/".
 
  2. Given:
 ```sh
@@ -70,15 +62,11 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Relative path. There is no leading "/" and the path is in reference to my current location, inside the 'Project' directory.
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Relative path. Ensures that if someone else were to work on this project the reference to the img doesn't break because they don't have access to the absolute path created via my device.
 
 <hr>
 
