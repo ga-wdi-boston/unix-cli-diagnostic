@@ -48,9 +48,7 @@ ya baby
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ Absolute, it starts with /
 
  2. Given:
 ```sh
@@ -64,15 +62,12 @@ ya baby
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ relative, it doesn't have a / at the beginning
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+relative, if we move it on to the interwebs or somewhere else, we want others to
+ be able to access it
 
 <hr>
 
