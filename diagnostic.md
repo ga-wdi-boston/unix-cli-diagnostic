@@ -46,7 +46,7 @@ kelly green
 
 <!-- yes.  I missed the part where we were supposed to create -->
 
-<!-- a temp file -->
+<!--  -->
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
@@ -54,9 +54,9 @@ kelly green
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+ <!--absolute-->
 
- <!-- Answer Ends Here -->
+ <!-- begins with a forward-slash-->
 
  2. Given:
 ```sh
@@ -70,13 +70,13 @@ kelly green
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
+ <!-- relative because it does not specify ~/project/planning -->
 
- <!-- Answer Ends Here -->
+ <!-- (can do, but it does not) -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
+ <!-- best to refer to via relative path -->
 
  <!-- Answer Ends Here -->
 
