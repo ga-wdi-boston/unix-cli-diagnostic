@@ -34,15 +34,14 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- Green because staged and ready to commit
+ Green because staged and ready to commit.  But cli-diagnostic/ folder still red because changes to rhyme.txt have not yet been added.
+ I will now add
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
 
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
-<!-- Answer Starts Here -->
-
-<!-- Answer Ends Here -->
+Yes
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
