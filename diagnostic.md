@@ -44,9 +44,9 @@ kelly green
 
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
-<!-- Answer Starts Here -->
+<!-- yes.  I missed the part where we were supposed to create -->
 
-<!-- Answer Ends Here -->
+<!-- a temp file -->
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
 
