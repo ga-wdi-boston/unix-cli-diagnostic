@@ -31,13 +31,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- Answer Starts Here -->
-
+Red
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
  <!-- Answer Starts Here -->
-
+Green
  <!-- Answer Ends Here -->
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
@@ -45,7 +45,9 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
 <!-- Answer Starts Here -->
-
+~/wdi/diagnostics/unix-cli-diagnostic/cli-diagnostic (response)
+$ ls
+rhyme.txt
 <!-- Answer Ends Here -->
 
 9.  Let's commit our changes, Do  `git status` to view your changes.  Do `git add <file_name>`  to stage your changes.  Commit these changes with `git commit <file_name>` and the commit message of `remove temp folder`.
@@ -55,7 +57,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute.  The path begins with /
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +73,14 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative.  you are not using / at the beginning of the path you are cd to
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Absolute.  if the file structure changes within our project, then the absolute
+path will still work, but the relative path may not.
  <!-- Answer Ends Here -->
 
 <hr>
