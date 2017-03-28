@@ -55,7 +55,7 @@ Yes it was.
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute, because it starts at the root directory
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Yes it was.
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+That is a relative path, because th starting point isn't the root directory, it is the project directory
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+If I were using it for the project, and all the material was clearly organizied in files for the project, then I would be able to use an relative path, probably somethine like media/img.png
  <!-- Answer Ends Here -->
 
 <hr>
