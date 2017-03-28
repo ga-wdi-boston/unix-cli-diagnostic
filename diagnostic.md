@@ -30,17 +30,15 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+ red
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+green
 
 7. Let's commit these changes with `git commit <file_name>` and the commit message of `add temp.md and associated folders`.
+
+no
 
 8. Navigate back up to `cli-diagnostic`, and delete the `temp` directory (with `temp.md` inside of it). Use `ls` to show the contents of `cli-diagnostic` - was `temp` deleted?
 
