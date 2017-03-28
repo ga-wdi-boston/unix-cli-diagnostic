@@ -55,7 +55,7 @@ Yes >> Used rm -rf
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute path, the first / represents the root of the system
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Yes >> Used rm -rf
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative path, planning is referenced with respect to the current working directory, project.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Relative, the image file lives inside our current working directory, project ; as a result, an absolute path is not needed to access it.
  <!-- Answer Ends Here -->
 
 <hr>
