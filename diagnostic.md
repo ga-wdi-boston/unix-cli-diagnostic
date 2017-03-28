@@ -55,7 +55,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+This is an absolute path because it starts with "/", referencing the root level of the file structure
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+It is a relative path because there are no references to the top level of the file tree, only a reference to the files nested in the project directory.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+We would refer to images with relative path names (img/img_filename). This makes all references valid, even if the directory structure on the server containing project changes.
  <!-- Answer Ends Here -->
 
 <hr>
