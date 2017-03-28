@@ -19,7 +19,6 @@ this repository (`unix-cli-diagnostic`).
 
 3. Open `rhyme.txt` using Atom (via the terminal) and add the following text:
 
- "The rain in Spain falls mainly in the plain."
 
  Once you've done this, save the file and quit.
 
@@ -31,7 +30,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 5. Great Work!  Back in the terminal, do  `git status` to view your changes.  What color is the file name?
 
  <!-- Answer Starts Here -->
-
+RED
  <!-- Answer Ends Here -->
 
 6. Do `git add <file_name>`  to stage your changes.  Do `git status` again to see the newly staged file.  What color is the file name now?
