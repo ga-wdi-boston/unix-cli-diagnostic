@@ -56,7 +56,7 @@ Yes, it was deleted
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+It is an absolute path because it begins with the root '/' then users then blah_blah then desktop.  Relative would begin with a tilde ~
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -72,13 +72,13 @@ Yes, it was deleted
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+Relative, because we are in 'project' and moving into 'cd planning' relative to where we are
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+I believe we could refer to it with a relative path, if the project name is unique and the photo name is unique.
  <!-- Answer Ends Here -->
 
 <hr>
