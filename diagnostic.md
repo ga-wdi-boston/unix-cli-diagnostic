@@ -55,6 +55,9 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
+The path listed above is a relative path because it tells you exactly where to go from the Home directory. It gives a direct route, avoiding online URLs that may change over time and therefore lose the information they linked to.
+
+
 
  <!-- Answer Ends Here -->
 
@@ -71,13 +74,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+We would use an absoulte path because that's where the font is being hosted by the server. It similar to the argument made in class: any photo hosted by google isnt going anywhere, we'll be able to link to it as long is its being hosted.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Depends on the situation, both have different stengths and weaknesses. For example: If we are working with others, it should have an absoulte path so that eveyone can access the files individually and not have to rely on one person to host them in a certain location. 
  <!-- Answer Ends Here -->
 
 <hr>
