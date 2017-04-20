@@ -55,7 +55,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+Absolute. It begins with a slash, not a period or cd
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+absolute. We don't control its location, so we need to be explicit. The advantage to relative paths is that when you move folders within your own machine, the relative path still works. That doesn't apply here.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+Relative. If you move the project folder, the file's relationship to the other files doesn't change, so a relative path will still be correct. An absolute path will need to be updated.
  <!-- Answer Ends Here -->
 
 <hr>
