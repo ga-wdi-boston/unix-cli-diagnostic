@@ -54,9 +54,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+Absolute path - Because the path begins in root directory (as indictated by the fact that it begins with "/"), it is an absolute path.
 
  2. Given:
 ```sh
@@ -70,15 +68,11 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+We would use an absolute path.  This is because we are not indicating the location of the file relative to some other resource in our project.  Instead, we are pointing to a static location that we can assume is accessible via a stable URL.
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
-
- <!-- Answer Ends Here -->
+We would use a relative path because we can be sure of the image's location relative to our project root or some other file in our project.  Because we will likely move our project code and/or share it, an absolute path beginning in our root directory will almost certainly not work in the future.
 
 <hr>
 
