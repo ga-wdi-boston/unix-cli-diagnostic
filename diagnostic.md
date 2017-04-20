@@ -54,9 +54,9 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+ <!-- Answer Starts Here --> Absolute. It shows the entire path from the root to the subdirectory.
 
- <!-- Answer Ends Here -->
+ <!-- Answer Ends Here --> One way to tell is because it starts with a /
 
  2. Given:
 ```sh
@@ -70,13 +70,14 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
+ <!-- Answer Starts Here -->Absolute Path.
 
- <!-- Answer Ends Here -->
+ <!-- Answer Ends Here -->Depends on who is hosting. Images hosted by Google will rarely ever change.
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
+ <!-- Answer Starts Here -->Relative Path. If the file is already living inside the project than it would mostlikely
+ be contained within the same subdirectory.
 
  <!-- Answer Ends Here -->
 
