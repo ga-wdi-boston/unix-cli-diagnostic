@@ -54,9 +54,9 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
- <!-- Answer Starts Here -->
+ Relative path - It tells me exactly where to retrieve the file.
 
- <!-- Answer Ends Here -->
+ An absolute path would be from the web that includes a full web address starting with http that the browser loads from the remote location directly.
 
  2. Given:
 ```sh
@@ -70,13 +70,12 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
- <!-- Answer Starts Here -->
+We would want to use a relative path because if we use a font from the web - if it gets deleted then that would no longer work for me.
 
- <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
- <!-- Answer Starts Here -->
+ I would refer the image with an relative path. If the picture gets deleted from the web then that will no longer works for me.
 
  <!-- Answer Ends Here -->
 
