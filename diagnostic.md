@@ -55,7 +55,7 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 1. Is `/Users/blah_blah/Desktop` a relative path or an absolute path? How do you know?
 
  <!-- Answer Starts Here -->
-
+This is a reletive path. It is a path specifying a directory reletive to another directory.
  <!-- Answer Ends Here -->
 
  2. Given:
@@ -71,13 +71,13 @@ Using Atom, open up `diagnostic.md` and write your answers below (where indicate
 If we are in the `project` directory and use `cd planning`, is a relative or absolute path being referenced? How do you know?
 
  <!-- Answer Starts Here -->
-
+A absolue path. Absolute paths relative paths refer to a file or file path.
  <!-- Answer Ends Here -->
 
 3. Now suppose that we have an image file living inside our project. Would we refer to it with an absolute or relative path? Why?
 
  <!-- Answer Starts Here -->
-
+A reletive path. The image is in a document which is located locally in a diretory.
  <!-- Answer Ends Here -->
 
 <hr>
